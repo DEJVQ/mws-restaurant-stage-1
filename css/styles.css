@@ -301,7 +301,7 @@
 
     table[id="restaurant-hours"] {
         margin: 0 auto;
-    } 
+    }
 
     #restaurant-hours td {
       color: #545454;
@@ -337,8 +337,17 @@
         top: 0;
     }
 
+#reviews-list li {
+    width: 75%;
+}
+
+.inside #footer {
+    position: fixed;
+    bottom: 0;
+}
+
     /* Media queries */
-    
+
     @media screen and (min-width: 1400px) {
         
         #restaurants-list li {
@@ -364,8 +373,8 @@
         }
         
     }
-    
-    
+
+
     @media screen and (max-width: 768px) {
         
         .inside #footer {
@@ -385,7 +394,7 @@
             display: inline-block;
             width: 30%;
         }
-        
+
         section[id="reviews-container"] {
             width: 100% !important;
         }
@@ -413,20 +422,20 @@
         body {
             border: 10px solid #000;
         }
-        
-        
+
+
         nav h1 {
             padding: 10px;
         }
-        
+
         nav h1 a {
             font-size: 0.7rem;
         }
-        
+
         main[id="maincontent"] {
             margin-top: 50px;
         }
-        
+
         .inside header {
           position: relative;
             width: 100%;
