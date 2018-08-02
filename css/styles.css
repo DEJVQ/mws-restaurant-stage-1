@@ -273,8 +273,19 @@ nav h1 a {
 }
 
 
+/* Inside */
+.inside .restaurant-img {
+    /*width: 70% !important;*/
+}
 
+#reviews-list li {
+    width: 75%;
+}
 
+.inside #footer {
+    position: fixed;
+    bottom: 0;
+}
 
 /* Media queries */
 
